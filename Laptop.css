@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #555;
+    font-family: "poopins",sans-serif;
+    text-transform: capitalize;
+}
+.LaptopCard{
+    width: 600px;
+    height: 500px;
+    background-color: #000;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5),
+                10px 10px 10px   rgba(0,0,0,0.5);
+                color: #FFFFFF;
+}
+.hp{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+h3, h1{
+    display: inline;
+}
+h3{
+    font-size: 1.5em;
+    color: dodgerblue;
+}
+h1{
+    margin-left: 20px;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 0 rgba(255, 0, 0, 0.5);
+}
+
+p{
+    margin-top: 10px;
+    width: 250px;
+    text-align: start;
+    font-family: cursive;
+}
+button{
+    margin-top: 20px;
+    position: absolute;
+    left: 30%;
+    width: 100px;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    background-color: #ff13ff;
+    color: #FFFFFF;
+    transition: .5s;
+}
+button:hover{
+    cursor: pointer;
+    background-color: dodgerblue;
+}
+.laptop{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    animation: move 1.5s infinite alternate;
+}
+@keyframes move{
+    0% { transform: translateY(0); 
+    }
+    100% { transform: translateY(-20px); 
+    }
+}
+.circle{
+    width: 300px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 10%;
+    right: -1px;
+    z-index: -1;
+    border-top-left-radius:100%;
+}
+.social{
+    position: absolute;
+    bottom: 30%;
+    left: 62%;
+    font-size: 1em;
+}
+i{
+    color: #000;
+    margin: 5px;
+}
+#you{
+    padding: 10px 10px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+#fac{
+    padding: 10px 10px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+#ins{
+    padding: 10px 10px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+#git{
+        padding: 10px 10px;
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 50%;
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+#you:hover{
+    color: #FF0000;
+    background-color: white;
+}
+#fac:hover{
+    color: #4267B2;
+    background-color: white;
+}
+#ins:hover{
+     background-color: white;
+     color: #f30367;
+}
+#git:hover{
+    background-color: white;
+    color: black;
+}
+.rating{
+    margin-top: 70px;
+    margin-left: 35%;
+}
+#star{
+    color: yellow;
+}
